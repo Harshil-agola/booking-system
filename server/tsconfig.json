@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "module": "preserve",
+    "target": "esnext",
+    "sourceMap": true,
+    "moduleDetection": "force",
+    "skipLibCheck": true,
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "types": [
+      "node"
+    ],
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}
