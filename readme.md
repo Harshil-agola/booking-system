@@ -16,7 +16,7 @@ npm install
 Create a `.env` file inside `server/`:
 ```env
 PORT=8080
-DATABASE_URL="mongodb+srv://test_user:1GGliF4T3C46C4lJ@interview-ai-cluster.nmj79of.mongodb.net/test"
+DATABASE_URL="mongodb+srv://<user_name>:<password>@interview-ai-cluster.nmj79of.mongodb.net/test"
 CLIENT_ORIGIN="http://localhost:3000"
 ```
 
